@@ -6,7 +6,6 @@ import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Union
